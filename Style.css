@@ -1,5 +1,5 @@
 .container{
-    border:2px solid blue;
+    /* border:2px solid blue; */
     padding:100px;
     
 }
@@ -18,7 +18,8 @@
 }
 .child{
     /* border:2px solid red; */
-    width:140px;
+    width:150px;
+    height:150px;
     /* height:50px; */
     /* background-color:; */
    
