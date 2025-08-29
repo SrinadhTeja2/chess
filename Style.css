@@ -8,7 +8,8 @@
     height:150px;
     /* width:150px; */
     display:flex;
-   
+   /* position:absolute; */
+    
 
 }
 .parent2{
@@ -16,12 +17,14 @@
     height:150px;
     /* width:200px; */
     display:flex;
+    /* position:absolute; */
      /* flex-wrap: wrap; */
    
 }
 .child{
     /* border:2px solid red; */
     width:150px;
+    position:relative;
     /* height:150px; */
     /* flex-wrap: wrap; */
     /* height:50px; */
@@ -41,8 +44,9 @@
     background-color:cadetblue;
 }
 img{
-    padding-top: 40px;
-    padding-left: 40px;
+    position:absolute;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 .parent1>.child:hover{
     background-color:turquoise;
