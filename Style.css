@@ -20,6 +20,7 @@
     /* border:2px solid red; */
     width:150px;
     height:150px;
+    flex-wrap: wrap;
     /* height:50px; */
     /* background-color:; */
    
