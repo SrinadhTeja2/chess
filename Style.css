@@ -1,17 +1,17 @@
 .container{
-    /* border:2px solid blue; */
+    border:2px solid blue;
     padding:100px;
     
 }
 .parent1{
-    /* border:2px solid black; */
+    border:2px solid black;
     height:150px;
     /* width:200px; */
     display:flex;
 
 }
 .parent2{
-    /* border:2px solid black; */
+    border:2px solid black;
     height:150px;
     display:flex;
    
@@ -19,6 +19,7 @@
 .child{
     /* border:2px solid red; */
     width:140px;
+    /* height:50px; */
     /* background-color:; */
    
 }
