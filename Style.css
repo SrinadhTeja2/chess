@@ -6,21 +6,24 @@
 .parent1{
     border:2px solid black;
     height:150px;
-    /* width:200px; */
+    /* width:150px; */
     display:flex;
+   
 
 }
 .parent2{
     border:2px solid black;
     height:150px;
+    /* width:200px; */
     display:flex;
+     /* flex-wrap: wrap; */
    
 }
 .child{
     /* border:2px solid red; */
     width:150px;
-    height:150px;
-    flex-wrap: wrap;
+    /* height:150px; */
+    /* flex-wrap: wrap; */
     /* height:50px; */
     /* background-color:; */
    
@@ -38,7 +41,7 @@
     background-color:cadetblue;
 }
 img{
-    padding:40px;
+    padding:40px 0px 40px 40px;;
 }
 .parent1>.child:hover{
     background-color:turquoise;
